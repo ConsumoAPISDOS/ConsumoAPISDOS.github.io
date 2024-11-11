@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phone Number Validation</title>
+    <link rel="stylesheet" href="./estilophone.css">
+</head>
+<body>
+    <h2>Validación de Número de Teléfono</h2>
+    <label for="phoneNumber">Ingrese el número de teléfono:</label>
+    <input type="text" id="phoneNumber" placeholder="e.g., 14158586273">
+    <button onclick="validatePhoneNumber()">Validar</button>
+
+    <h3>Resultado:</h3>
+    <pre id="result"></pre>
+
+    <button onclick="redirectToApi()">Continuar</button>
+
+    <script src="./api_privada.js"></script>
+</body>
+</html>
